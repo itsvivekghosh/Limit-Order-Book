@@ -1,4 +1,4 @@
-# PyLimitBook
+# Limit-Order-Book
 
 PyLimitBook is an implementation of a fast limit-order book for level-2 US equities data written in Python. It includes some tools to output sampled data as well as a curses-based application to view the book and move forward or backward in time.
 
@@ -41,10 +41,3 @@ Lines should be in timestamp-order from earliest to latest (the order it is sent
 * `convert.py`  -  Convert from an input format that uses ', ' as a CSV separator and different column order to the correct input format.
 * `bookViewer.py`  -  Graphically view the book state at any point in time
 
-![BookViewer Screenshot](https://github.com/yoblin/PyLimitBook/raw/master/doc/bookViewer_screenshot.png)
-
-## Known Issues
-
-* There are some resizing issues when using bookViewer.py in a (uselessly) small terminal.
-# Limit-Order-Book
-# Limit-Order-Book
